@@ -1,4 +1,4 @@
-package com.forum.aspact;
+package com.forum.component;
 
 import org.aspectj.lang.annotation.Pointcut;
 
