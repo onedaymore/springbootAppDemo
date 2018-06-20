@@ -33,7 +33,12 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("com.h2database:h2")
+    compile("org.apache.commons:commons-lang3:3.7")
     runtime "org.lazyluke:log4jdbc-remix:0.2.7"
     runtime "com.oracle:ojdbc6:11.2.0.3.0"
     testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+task wrapper(type: Wrapper) {
+ gradleVersion = '4.7'
 }
