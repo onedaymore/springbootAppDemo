@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ServiceLayerAspect {
 	
-	@Before("com.forum.aspact.SystemArchitecture.businessService()")
+	@Before("com.forum.component.SystemArchitecture.businessService()")
 	public void log() throws Throwable {
 		System.out.println("well");
 	}
